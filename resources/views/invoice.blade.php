@@ -141,7 +141,7 @@
 
 								<td>
 									Acme Corp.<br />
-									{{ auth()->user()->fullName() }}<br />
+									{{ auth()->user()->fullName }}<br />
 									{{ auth()->user()->email }}
 								</td>
 							</tr>
