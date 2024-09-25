@@ -47,7 +47,7 @@ class User extends Authenticatable
         ];
     }
 
-    public function fullName(): Attribute
+    protected function fullName(): Attribute
     {
         return Attribute::make(
             get: fn() => "$this->first_name $this->last_name"
